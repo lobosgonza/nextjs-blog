@@ -57,7 +57,7 @@ function Layout({ children, home }) {
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            <a>← Volver</a>
           </Link>
         </div>
       )}
@@ -65,6 +65,6 @@ function Layout({ children, home }) {
   )
 }
 
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Gonzalo Lobos | Front End Developer';
 
 export default Layout
